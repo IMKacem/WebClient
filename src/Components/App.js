@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Header, Sidebar } from "./Layouts";
+import { Header} from "./Layouts";
 import { CssBaseline } from "@material-ui/core";
 import GraphicDashboard from "./Graphic";
 import "storm-react-diagrams/dist/style.min.css";
