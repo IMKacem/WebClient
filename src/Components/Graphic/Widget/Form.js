@@ -1,0 +1,670 @@
+import React from "react";
+
+class Form extends React.Component {
+    constructor(props) {
+      super(props)
+
+      this.state = {
+       keywords: '',
+       city: '',
+       date: ''
+      }
+     }
+
+    render() {
+        return (
+            <form className='form'>
+            <h1>Workflow</h1><p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>status</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>function</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>function</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>function</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>function</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>function</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+<p>typeAsString</p>
+<input
+ type="text"
+/>
+<p>valueAsString</p>
+<input
+ type="text"
+/>
+<p>name</p>
+<input
+ type="text"
+/>
+</form>
+        )
+    }
+}
+
+export { Form}

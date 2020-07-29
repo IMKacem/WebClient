@@ -3,9 +3,12 @@ import { Header} from "./Layouts";
 import { CssBaseline } from "@material-ui/core";
 import GraphicDashboard from "./Graphic";
 import "storm-react-diagrams/dist/style.min.css";
+import Contact from './workflow'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 export default function App() {
   return (
+
     <Fragment>
       <CssBaseline />
       <Header />
@@ -13,5 +16,6 @@ export default function App() {
         <GraphicDashboard />
       </div>
     </Fragment>
+
   );
 }

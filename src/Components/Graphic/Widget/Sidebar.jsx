@@ -37,7 +37,6 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(3)
   }
 }));
-
 export default function ClippedDrawer() {
   const classes = useStyles();
 
@@ -51,96 +50,264 @@ export default function ClippedDrawer() {
         }}
       >
         <Toolbar />
+
         <div className={classes.drawerContainer}>
           <List>
-            <ListItem
-              button
-              key="Add"
-              draggable={true}
-              onDragStart={event => {
-                event.dataTransfer.setData(
-                  "storm-diagram-node",
-                  JSON.stringify({ type: "in" })
-                );
-              }}
-              className="tray-item"
-            >
-              <ListItemIcon>
-                <AddIcon />
-              </ListItemIcon>
-              <ListItemText primary="Add" />
-            </ListItem>
-            <ListItem
-              button
-              key="Substract"
-              draggable={true}
-              onDragStart={event => {
-                event.dataTransfer.setData(
-                  "storm-diagram-node",
-                  JSON.stringify({ type: "out" })
-                );
-              }}
-              className="tray-item"
-            >
-              <ListItemIcon>
-                <DivideIcon />
-              </ListItemIcon>
-              <ListItemText primary="Substract" />
-            </ListItem>
-            <ListItem
-              button
-              key="Mutliply"
-              draggable={true}
-              onDragStart={event => {
-                event.dataTransfer.setData(
-                  "storm-diagram-node",
-                  JSON.stringify({ type: "in" })
-                );
-              }}
-              className="tray-item"
-            >
-              <ListItemIcon>
-                <ClearIcon />
-              </ListItemIcon>
-              <ListItemText primary="Mutliply" />
-            </ListItem>
-          </List>
-          <Divider />
-          <List>
-            <ListItem
-              button
-              key="Float"
-              draggable={true}
-              onDragStart={event => {
-                event.dataTransfer.setData(
-                  "storm-diagram-node",
-                  JSON.stringify({ type: "in" })
-                );
-              }}
-              className="tray-item"
-            >
-              <ListItemIcon>
-                <FloatIcon />
-              </ListItemIcon>
-              <ListItemText primary="Float" />
-            </ListItem>
-            <ListItem
-              button
-              key="Boolean"
-              draggable={true}
-              onDragStart={event => {
-                event.dataTransfer.setData(
-                  "storm-diagram-node",
-                  JSON.stringify({ type: "in" })
-                );
-              }}
-              className="tray-item"
-            >
-              <ListItemIcon>
-                <BoolIcon />
-              </ListItemIcon>
-              <ListItemText primary="Boolean" />
-            </ListItem>
+<ListItem
+           button
+           key="TypedElement"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="TypedElement" />
+         </ListItem>
+<ListItem
+           button
+           key="NamedElement"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="NamedElement" />
+         </ListItem>
+<ListItem
+           button
+           key="BaseTask"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="BaseTask" />
+         </ListItem>
+<ListItem
+           button
+           key="TaskOutput"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="TaskOutput" />
+         </ListItem>
+<ListItem
+           button
+           key="LibraryFunction"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="LibraryFunction" />
+         </ListItem>
+<ListItem
+           button
+           key="LibraryTask"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="LibraryTask" />
+         </ListItem>
+<ListItem
+           button
+           key="Workflow"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Workflow" />
+         </ListItem>
+<ListItem
+           button
+           key="Setter"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Setter" />
+         </ListItem>
+<ListItem
+           button
+           key="Connection"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Connection" />
+         </ListItem>
+<ListItem
+           button
+           key="CustomTask"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="CustomTask" />
+         </ListItem>
+<ListItem
+           button
+           key="Nsetter"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Nsetter" />
+         </ListItem>
+<ListItem
+           button
+           key="IsInitSetter"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="IsInitSetter" />
+         </ListItem>
+<ListItem
+           button
+           key="IsNotInitSetter"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="IsNotInitSetter" />
+         </ListItem>
+<ListItem
+           button
+           key="Input"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Input" />
+         </ListItem>
+<ListItem
+           button
+           key="Output"
+           draggable={true}
+           onDragStart={event => {
+             event.dataTransfer.setData(
+               "storm-diagram-node",
+               JSON.stringify({ type: "in" })
+             );
+           }}
+           className="tray-item"
+         >
+           <ListItemIcon>
+             <AddIcon />
+           </ListItemIcon>
+           <ListItemText primary="Output" />
+         </ListItem>
           </List>
         </div>
       </Drawer>

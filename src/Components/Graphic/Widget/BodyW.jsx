@@ -65,6 +65,8 @@ export class BodyWidget extends React.Component {
               className="srd-demo-canvas"
               diagramEngine={this.props.app.getDiagramEngine()}
             />
+
+
           </div>
         </div>
       </div>
